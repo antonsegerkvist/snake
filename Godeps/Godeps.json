@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/snake",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./server/"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.4.0-13-gae1634f",
+			"Rev": "ae1634f6a98965ded3b8789c626cb4e0bd78c3de"
+		}
+	]
+}
