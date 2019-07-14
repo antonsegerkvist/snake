@@ -33,8 +33,6 @@ function drawBuffer (buf) {
   }
 }
 
-
-
 const ws = new WebSocket(document.location.search.slice(1))
 
 ws.onopen = event => {
